@@ -4,7 +4,7 @@ kind: CustomResourceDefinition
 metadata:
   name: mycustomresources
 spec:
-  group: ['*']
+  group: all
   version: v1
   scope: default
   names:
